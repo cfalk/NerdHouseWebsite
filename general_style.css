@@ -1,0 +1,160 @@
+body
+{
+background-color:#FFFFFF;
+font-family:verdana;
+font-size:12px;
+line-height:210%;
+}
+
+a
+{
+font-family:verdana;
+font-size:12px;
+text-decoration:none;
+font-weight:bold;
+}
+a:hover
+{
+color:green; /*Could be any ol' color.*/
+}
+
+
+#a_menu
+{
+color:black;
+}
+#a_menu_active
+{
+color:black;
+text-decoration:underline;
+font-size:16px;
+}
+#a_menu:hover
+{
+color:blue;
+}
+
+#a_body
+{
+color:black;
+cursor: pointer;
+}
+
+#a_body:hover
+{
+color:blue;
+}
+
+#img_body
+{
+ margin:4px;
+ border:2px solid black;
+ border-radius:20px;
+}
+#img_co_nr_tag
+{
+ border:2px solid black;
+ margin:10px;
+ height:50px;
+ width:100px;
+ border-radius:50px;
+ box-shadow:5px 5px 5px #888888;
+}
+
+ul
+{
+margin:0;
+list-style-type:square;
+}
+
+#head_left /* Used as  */
+{
+position:relative;
+text-align:left;
+font-weight:bold;
+}
+#head_center /* Used as  */
+{
+position:relative;
+text-align:center;
+font-weight:bold;
+}
+
+#div_frame
+{
+ position:relative;
+ top:75px;
+ width:600px;
+ height:400px;
+ margin: 0 auto;
+}
+
+#div_copyright
+{
+ position:relative;
+ left:120px;
+ top:65px;
+ width:420px;
+ margin: 0 auto;
+ text-align:center;
+ font-size:10px;
+}
+
+#div_left_picture 
+{
+ position:absolute;
+ top:0px;
+ left:0px;
+ width:200px;
+ height:400px;
+ box-shadow:5px 5px 5px #888888;
+}
+#div_co_nr_logo
+{
+ position:absolute;
+ top:0px;
+ left:0px;
+}
+#div_logo 
+{
+ position:absolute;
+ top:0px;
+ left:180px;
+ width:400px;
+ height:100px;
+}
+#div_menu
+{
+ position:absolute;
+ top:100px;
+ left:200px;
+ width:400px;
+ height:50px;
+ text-align:center;
+}
+#div_body
+{
+ position:absolute;
+ border:4px solid black;
+ border-radius:8px;
+ top:130px;
+ left:200px;
+ width:400px;
+ height:230px;
+ padding: 10px;
+ margin-left:10px;
+ box-shadow:5px 5px 5px #888888;
+}
+#div_body_other
+{
+ position:absolute;
+ border:4px solid black;
+ border-radius:8px;
+ top:130px;
+ left:200px;
+ width:400px;
+ height:230px;
+ padding: 10px;
+ margin-left:10px;
+ box-shadow:5px 5px 5px #888888;
+}
